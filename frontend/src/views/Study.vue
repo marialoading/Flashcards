@@ -149,25 +149,27 @@ onMounted(loadNext)
 .cute-study-container {
   max-width: 900px;
   margin: 0 auto;
-  padding: 20px;
-  min-height: 100vh;
+  padding: 10px;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow-y: auto;
 }
 
 .cute-card-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 500px;
+  min-height: 400px;
 }
 
 .cute-card-side {
   background: linear-gradient(145deg, #fefefe, #fff8ff);
   border: 2px solid #dda0dd;
   border-radius: 15px;
-  padding: 40px;
+  padding: 20px;
   max-width: 600px;
   width: 100%;
-  min-height: 400px;
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   box-shadow: 
@@ -201,8 +203,8 @@ onMounted(loadNext)
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 25px;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
   border-bottom: 3px solid #000;
 }
 
@@ -239,7 +241,7 @@ onMounted(loadNext)
 
 .cute-card-content {
   font-family: 'Fredoka One', Arial, sans-serif !important;
-  font-size: 20px !important;
+  font-size: 18px !important;
   line-height: 1.6 !important;
   color: #664466 !important;
   text-align: center;
@@ -247,7 +249,7 @@ onMounted(loadNext)
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px 0;
+  padding: 20px 0;
   font-weight: 600 !important;
   text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
 }
@@ -256,19 +258,19 @@ onMounted(loadNext)
   color: #8b5a8c !important;
   border: 2px dashed #dda0dd;
   border-radius: 12px;
-  padding: 25px !important;
+  padding: 15px !important;
   background: rgba(221,160,221,0.1);
 }
 
 .cute-question-reminder {
   font-family: 'Fredoka One', Arial, sans-serif !important;
-  font-size: 14px !important;
+  font-size: 12px !important;
   color: #9370db !important;
   background: rgba(147, 112, 219, 0.1);
   border: 2px solid #9370db;
   border-radius: 0;
-  padding: 15px;
-  margin-bottom: 20px;
+  padding: 10px;
+  margin-bottom: 15px;
   font-weight: 600 !important;
   text-align: left;
 }
@@ -276,13 +278,13 @@ onMounted(loadNext)
 .cute-card-actions {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  margin-top: 30px;
+  gap: 15px;
+  margin-top: 15px;
 }
 
 .cute-rating-actions {
   justify-content: space-between;
-  gap: 30px;
+  gap: 20px;
 }
 
 .cute-show-button, .cute-wrong-button, .cute-correct-button {
@@ -298,11 +300,11 @@ onMounted(loadNext)
 
 .cute-completion-screen {
   text-align: center;
-  padding: 40px 30px;
+  padding: 30px 20px;
   background: linear-gradient(135deg, #f8e6ff 0%, #e6f3ff 50%, #fff0e6 100%);
   border: 3px solid #dda0dd;
   border-radius: 20px;
-  margin: 40px auto;
+  margin: 20px auto;
   max-width: 500px;
   box-shadow: 
     0 0 0 2px rgba(221,160,221,0.3),
@@ -375,11 +377,11 @@ onMounted(loadNext)
 
 .cute-loading-screen {
   text-align: center;
-  padding: 60px 30px;
+  padding: 30px 20px;
   background: linear-gradient(135deg, #f8e6ff 0%, #e6f3ff 50%, #fff0e6 100%);
   border: 3px solid #dda0dd;
   border-radius: 20px;
-  margin: 40px auto;
+  margin: 20px auto;
   max-width: 400px;
   box-shadow: 
     0 0 0 2px rgba(221,160,221,0.3),

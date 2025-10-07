@@ -205,12 +205,14 @@ onMounted(() => {
 
 <style scoped>
 .cute-deck {
-  min-height: 100vh;
+  height: 100vh;
   background: linear-gradient(135deg, #f8e6ff 0%, #e6f3ff 50%, #fff0e6 100%);
-  padding: 20px;
+  padding: 10px;
   font-family: 'Fredoka One', sans-serif;
   max-width: 1000px;
   margin: 0 auto;
+  overflow-y: auto;
+  box-sizing: border-box;
 }
 
 
@@ -218,8 +220,8 @@ onMounted(() => {
   background: rgba(255, 255, 255, 0.95);
   border-radius: 20px;
   border: 3px solid #dda0dd;
-  padding: 30px;
-  margin-bottom: 30px;
+  padding: 15px;
+  margin-bottom: 15px;
   box-shadow: 
     0 0 0 2px rgba(221,160,221,0.3),
     0 8px 16px rgba(0,0,0,0.1),

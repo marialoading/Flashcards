@@ -11,12 +11,13 @@
 
 body {
   margin: 0;
-  padding: 20px;
+  padding: 10px;
   background: linear-gradient(45deg, #fefcf8 25%, #fffef0 25%, #fffef0 50%, #fefcf8 50%, #fefcf8 75%, #fffef0 75%, #fffef0);
   background-size: 30px 30px;
   font-family: 'Fredoka One', Arial, sans-serif;
   color: #5a4a4a;
-  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
   animation: gentleFloat 15s ease-in-out infinite;
 }
 
@@ -25,7 +26,7 @@ body {
   50% { background-position: 15px 15px; }
 }
 
-/* Base Input Style */
+
 .pixel-input {
   font-family: 'Fredoka One', Arial, sans-serif;
   font-size: 12px;
@@ -45,7 +46,6 @@ body {
   box-shadow: 0 2px 0 #5c2a3d, inset 0 2px 4px rgba(139, 58, 92, 0.1), 0 0 8px rgba(139, 58, 92, 0.3);
 }
 
-/* Base Panel Style */
 .pixel-panel {
   background: linear-gradient(145deg, #fefcf8, #fff);
   border: 3px solid #664466;
@@ -56,7 +56,7 @@ body {
   position: relative;
 }
 
-/* Base Header Styles */
+
 .pixel-header {
   font-family: 'Fredoka One', Arial, sans-serif;
   font-weight: 700;
@@ -82,7 +82,6 @@ body {
   text-shadow: 1px 1px 0 rgba(0,0,0,0.1);
 }
 
-/* Animations */
 .pixel-pulse {
   animation: sweetPulse 2s infinite ease-in-out;
 }

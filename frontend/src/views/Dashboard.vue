@@ -261,27 +261,29 @@ onMounted(() => {
 <style scoped>
 
 .cute-dashboard {
-  min-height: 100vh;
+  height: 100vh;
   background: linear-gradient(135deg, #f8e6ff 0%, #e6f3ff 50%, #fff0e6 100%);
-  padding: 20px;
+  padding: 10px;
   font-family: 'Fredoka One', sans-serif;
   max-width: 1200px;
   margin: 0 auto;
+  overflow-y: auto;
+  box-sizing: border-box;
 }
 
 .cute-panel {
   background: rgba(255, 255, 255, 0.9);
   border-radius: 15px;
-  padding: 30px;
-  margin-bottom: 30px;
+  padding: 15px;
+  margin-bottom: 15px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   border: 3px solid #dda0dd;
 }
 
 .cute-subtitle {
   color: #efadff;
-  font-size: 1.5rem;
-  margin-bottom: 20px;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
   text-align: center;
   font-weight: 600;
   text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
@@ -311,14 +313,14 @@ onMounted(() => {
 
 
 .cute-section {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .cute-section-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #f4a9ff;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
   font-weight: 600;
   -webkit-text-stroke: 0.1px #000;
@@ -330,15 +332,15 @@ onMounted(() => {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 25px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 15px;
 }
 
 .deck-card {
   background: linear-gradient(145deg, #fefefe, #fff8ff);
   border-radius: 20px;
   border: 2px solid #dda0dd;
-  padding: 25px;
+  padding: 15px;
   box-shadow: 
     0 0 0 2px rgba(221,160,221,0.3),
     0 6px 0 #dda0dd,
@@ -348,7 +350,7 @@ onMounted(() => {
   overflow: visible;
   display: flex;
   flex-direction: column;
-  min-height: 280px;
+  min-height: 220px;
 }
 
 .deck-card::before {
@@ -384,16 +386,16 @@ onMounted(() => {
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .deck-title {
   display: block;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #eac1ff;
   text-decoration: none;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
   text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
   transition: all 0.3s ease;
@@ -401,7 +403,7 @@ onMounted(() => {
 }
 
 .deck-title:hover {
-  color: #2d5f3f;
+  color: #bfe2ff;
   text-shadow: 
     2px 2px 0 #000,
     -1px -1px 0 #000,
@@ -413,13 +415,13 @@ onMounted(() => {
 
 
 .stats-display {
-  margin-top: 15px;
+  margin-top: 8px;
 }
 
 .stat-badges {
   display: flex;
-  gap: 8px;
-  margin-bottom: 15px;
+  gap: 6px;
+  margin-bottom: 8px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -439,8 +441,8 @@ onMounted(() => {
 .box-distribution {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  margin-bottom: 15px;
+  gap: 6px;
+  margin-bottom: 8px;
   align-items: center;
 }
 
@@ -517,9 +519,9 @@ onMounted(() => {
 
 .deck-actions {
   display: flex;
-  gap: 12px;
+  gap: 8px;
   margin-top: auto;
-  padding-top: 20px;
+  padding-top: 10px;
   justify-content: center;
   flex-wrap: wrap;
 }
