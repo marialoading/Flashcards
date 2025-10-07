@@ -1,5 +1,6 @@
 
- <h3 align="left">Mega-princess-ultra-kawaii-unicorn-pixel-uwu styled flashcard tool. </h3>
+ <h3 align="left">Mega-princess-ultra-kawaii-unicorn-pixel-uwu styled flashcard app </h3>
+ <h4> Click on the newest release! ✨ </h4>
  <dl align="left">
     <dt>
        <dt> Built for exam preperation, powered by cats, pastel gradients and the mighty leitner algorithm. </dt>
@@ -13,22 +14,24 @@
 <h3 align="center"> used Tech-Stack:</h3> 
 <dl align="left">
     <dt>
-        <dt> **Backend:** Python + Flask + PostgreSQL</dt>
-        <dt> **Frontend:** Vue 3 + TypeScript + CSS</dt>
-        <dt> **Desktop App:** Tauri (Rust + Web)</dt>
-        <dt> **Deployment:** Docker & Docker Compose</dt>
-        <dt> **Development:** Vite + HMR</dt>
+        <dt> Backend: Python + Flask + PostgreSQL</dt>
+        <dt> Frontend: Vue 3 + TypeScript + CSS</dt>
+        <dt> Desktop App: Tauri (Rust + Web)</dt>
+        <dt> Deployment: Docker</dt>
+        <dt> Development: Vite + HMR</dt>
     </dt>
 </dl>
 
 ##  Quick Start
 
-### Option 1: Download Pre-built App (Recommended)
+### Option 1: Download Pre-built App (Recommended) 🎯
 1. **Download the latest release** from [GitHub Releases](https://github.com/marialoading/Flashcards/releases)
-2. **Choose your preferred installer:**
-   - `flashcards_0.1.0_x64_en-US.msi` (Windows Installer)
-   - `flashcards_0.1.0_x64-setup.exe` (NSIS Setup)
-   - Or the standalone `app.exe`
+2. **Choose your preferred option:**
+   - **`app.exe`** - Portable standalone app (just download & run!)
+   - **`flashcards_1.0.0_x64_en-US.msi`** - Windows Installer Package (adds to Programs)
+   - **`flashcards_1.0.0_x64-setup.exe`** - Setup Wizard with uninstaller
+
+**System Requirements:** Windows 10/11 (64-bit) • ~8.5 MB space
 
 ### Option 2: Build from Source
 ```bash
@@ -52,16 +55,16 @@ npm run tauri:dev
 npm run tauri:build
 ```
 
-## 📁 After Building Locally
+##  After Building Locally
 
 When you build the app yourself, you'll find your files here:
 
-### 🎯 **Your Built App:**
+###  **Your Built App:**
 ```
 frontend/src-tauri/target/release/app.exe
 ```
 
-### 📦 **Your Built Installers:**
+###  **Your Built Installers:**
 ```
 frontend/src-tauri/target/release/bundle/msi/flashcards_0.1.0_x64_en-US.msi
 frontend/src-tauri/target/release/bundle/nsis/flashcards_0.1.0_x64-setup.exe
@@ -87,12 +90,13 @@ docker-compose down      # Stop all services
 ## 🌟 Contributing
 
 Feel free to contribute to make this app even more cat! 
-- Add more cute cats
-- Improve animations
-- Enhance the study algorithms
-- add permanent decks
-- Add more pastel gradients ✨
+- 🐱 Add more cute cats
+- ✨ Improve animations  
+- 🧠 Enhance the study algorithms
+- 📚 Add permanent decks
+- 🌈 Add more pastel gradients
 
 ---
 
 **Built with 💖 by Me - Making studying cute, one flashcard at a time! 🌸**
+**Now available as native desktop app with v1.0.0! 🎮✨**
