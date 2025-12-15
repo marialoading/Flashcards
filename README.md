@@ -1,12 +1,11 @@
 
- <h3 align="left">Mega-princess-ultra-kawaii-unicorn-pixel-uwu styled flashcard app </h3>
- <h4> Click on the newest release! ✨ </h4>
+ <h3 align="left">flashcard app with cats! </h3>
+ <h4> Click on the newest release!  </h4>
  <dl align="left">
     <dt>
        <dt> Built for exam preperation, powered by cats, pastel gradients and the mighty leitner algorithm. </dt>
        <dt> I also drew this extremely complicated cat portraits which absolutely took more time than coding this.  </dt>
        <dt> You can register and start creating decks, includes study mode with spaced repetition (Leitner system, but cuter~) </dt>
-       <dt> Future updates may include a switch for real-time leitner and fast-forward. </dt>
        <dt> Feel free to add Decks for learning, it's currently empty. </dt>
     </dt>
 </dl>
@@ -24,7 +23,7 @@
 
 ##  Quick Start
 
-### Option 1: Download Pre-built App (Recommended) 🎯
+### Option 1: Download Pre-built App (Recommended) 
 1. **Download the latest release** from [GitHub Releases](https://github.com/marialoading/Flashcards/releases)
 2. **Choose your preferred option:**
    - **`app.exe`** - Portable standalone app (just download & run!)
@@ -87,16 +86,15 @@ docker-compose down      # Stop all services
 ```
 
 
-## 🌟 Contributing
+##  Contributing
 
 Feel free to contribute to make this app even more cat! 
-- 🐱 Add more cute cats
-- ✨ Improve animations  
-- 🧠 Enhance the study algorithms
-- 📚 Add permanent decks
-- 🌈 Add more pastel gradients
+-  Add more cute cats
+- Improve animations  
+-  Enhance the study algorithms
+-  Add permanent decks
+-  Add more pastel gradients
 
 ---
 
-**Built with 💖 by Me - Making studying cute, one flashcard at a time! 🌸**
 **Now available as native desktop app with v1.0.0! 🎮✨**
